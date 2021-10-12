@@ -26,7 +26,7 @@ methods: {
     "Cache-Control": "no-cache",
     "Postman-Token": "637d415d-34eb-40ab-8655-e78a192a71d1,b82d0f9a-7660-4b36-8b95-cf89b225a567",
     "cache-control": "no-cache"}})
-        .then(response => (this.res = response.data.suggestions));
+        .then(response => (this.res = JSON.stringify(response.data.suggestions[0].value)));
   }
 },
   
