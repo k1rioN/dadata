@@ -24,7 +24,6 @@ export default {
       lon: null,
       query: null,
       newStr: null,
-      baseURL: process.env.baseUrl
     };
   },
 methods: {
